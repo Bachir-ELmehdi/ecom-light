@@ -30,4 +30,9 @@ public class Product implements Serializable {
     @Transient
     private int quantity=1;
 
+    //add method for test
+    public void test(){
+        System.out.println("rrrr");
+    }
+
 }
